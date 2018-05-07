@@ -10,7 +10,7 @@ ZrLog是使用Java开发的博客/CMS程序，具有简约，易用，组件化�
 
 ![](http://static.blog.zrlog.com/attached/image/20180210/20180210150116_800.png)
 
-![](http://static.blog.zrlog.com/attached/image/20180210/20180210150133_99.png)
+![](http://static.blog.zrlog.com/attached/image/20180507/20180507213444_773.png)
 
 ### 特性
 * 1.提供日志，分类，标签，评论的管理
