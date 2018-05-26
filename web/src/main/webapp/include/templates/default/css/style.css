@@ -13,16 +13,13 @@
 
 @font-face {
     font-family: 'icomoon';
-    src: url('../fonts/icomoon/icomoon.eot?ibtkww');
-    src: url('../fonts/icomoon/icomoon.eot?#iefixibtkww') format('embedded-opentype'),
-    url('../fonts/icomoon/icomoon.woff?ibtkww') format('woff'),
-    url('../fonts/icomoon/icomoon.ttf?ibtkww') format('truetype'),
-    url('../fonts/icomoon/icomoon.svg?ibtkww#icomoon') format('svg');
+    src: url('../fonts/icomoon/icomoon.woff?ibtkww') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 .gn-icon::before {
+    font-family: 'icomoon';
     font-weight: normal;
     font-style: normal;
     font-variant: normal;
@@ -238,7 +235,7 @@ input[type=text], textarea {
 .main section {
     float: left;
     width: 720px;
-    min-height:780px;
+    min-height: 780px;
 }
 
 .main aside {
@@ -3090,6 +3087,7 @@ a.size6 {
 a.size6:hover {
     color: #E13728;
 }
+
 .vjs-default-skin .vjs-control-bar {
     font-size: 60%;
     height: 39px;

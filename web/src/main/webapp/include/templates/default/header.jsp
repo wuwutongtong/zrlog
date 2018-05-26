@@ -55,6 +55,7 @@
             display: inline-block;
             background-size: cover;
         }
+
         .markdown-body ul, .markdown-body ol {
             padding-left: 0;
         }

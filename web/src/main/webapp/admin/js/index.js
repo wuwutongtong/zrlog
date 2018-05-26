@@ -156,11 +156,12 @@ $(function () {
 
 function loadHTML(url, id) {
     $.ajaxSetup({'cache': true});
-    $("#" + id).load(url, function (responseText, textStatus, req) {
+    $.get(url, function (responseText, textStatus, req) {
         NProgress.done();
         if (textStatus === "error") {
             return $("#" + id).html(formatErrorMessage(req, textStatus));
         } else {
+            $("#" + id).html(req.responseText);
             $(".js-switch").each(function (e) {
                 new Switchery($(".js-switch").get(e), {color: mainColor})
             })
